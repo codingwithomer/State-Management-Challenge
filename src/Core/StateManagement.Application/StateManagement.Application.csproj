@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StateManagement.Domain\StateManagement.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Flow\Commands\UpdateFlow\" />
+    <Folder Include="Features\Flow\Queries\" />
+    <Folder Include="Features\State\Commands\" />
+    <Folder Include="Features\State\Queries\" />
+    <Folder Include="Features\Task\Commands\" />
+    <Folder Include="Features\Task\Queries\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+</Project>
