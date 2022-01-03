@@ -14,8 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\Flow\Commands\UpdateFlow\" />
-    <Folder Include="Features\Flow\Queries\" />
     <Folder Include="Features\State\Commands\" />
     <Folder Include="Features\State\Queries\" />
     <Folder Include="Features\Task\Commands\" />

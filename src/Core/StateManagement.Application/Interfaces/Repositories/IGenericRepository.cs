@@ -12,6 +12,7 @@ namespace StateManagement.Application.Interfaces.Repositories
         Task<TEntity> GetAsync(Guid id);
         void Remove(Guid id);
         Task<IEnumerable<TEntity>> GetAsync(Expression<Func<TEntity, bool>> predicate = null);
+        Task<IEnumerable<TEntity>> GetAsync();
         Task<TEntity> UpdateAsync(TEntity entity);
     }
 }
