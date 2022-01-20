@@ -14,10 +14,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Features\State\Commands\" />
-    <Folder Include="Features\State\Queries\" />
-    <Folder Include="Features\Task\Commands\" />
-    <Folder Include="Features\Task\Queries\" />
     <Folder Include="Models\" />
   </ItemGroup>
 
